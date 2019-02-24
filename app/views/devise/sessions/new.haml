@@ -1,0 +1,29 @@
+.columns
+  .column#header
+    %h1 Vanillify
+
+.container
+  %h2 Iniciar Sesión
+
+  = form_for resource, as: resource_name, url: session_path(resource_name) do |f|
+    .field
+      = f.label :email, class: 'label'
+      %br
+      = f.email_field :email, autofocus: true, autocomplete: "email", class: 'input'
+    
+    .field
+      = f.label :password, class: 'label'
+      %br
+      = f.password_field :password, autocomplete: "current-password", class: 'input'
+
+    .actions.columns
+      .column
+        = link_to "No tengo cuenta", new_user_registration_path, class: 'button is-info'
+      .column
+        = f.submit "Iniciar Sesión", class: 'button is-info'
+
+  %p.notice
+    = notice
+
+  %p.alert
+    = alert
