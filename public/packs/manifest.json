@@ -1,8 +1,12 @@
 {
-  "admin/Main.js": "/packs/admin/Main-9c5b6de936b01414298e.js",
-  "admin/Main.js.map": "/packs/admin/Main-9c5b6de936b01414298e.js.map",
-  "application.js": "/packs/application-db6e1e305fc387e2a1c0.js",
-  "application.js.map": "/packs/application-db6e1e305fc387e2a1c0.js.map",
-  "hello_react.js": "/packs/hello_react-92948cc80afa7fd82e02.js",
-  "hello_react.js.map": "/packs/hello_react-92948cc80afa7fd82e02.js.map"
+  "admin/Main.js": "/packs/admin/Main-651f2c63467b32095f07.js",
+  "admin/Main.js.map": "/packs/admin/Main-651f2c63467b32095f07.js.map",
+  "admin/Song.js": "/packs/admin/Song-44711111098ff367680e.js",
+  "admin/Song.js.map": "/packs/admin/Song-44711111098ff367680e.js.map",
+  "admin/SongsContainer.js": "/packs/admin/SongsContainer-9845681a6759d724180c.js",
+  "admin/SongsContainer.js.map": "/packs/admin/SongsContainer-9845681a6759d724180c.js.map",
+  "application.js": "/packs/application-fdc97f451fdfbbfb0205.js",
+  "application.js.map": "/packs/application-fdc97f451fdfbbfb0205.js.map",
+  "hello_react.js": "/packs/hello_react-4efba5f14e19d40bc339.js",
+  "hello_react.js.map": "/packs/hello_react-4efba5f14e19d40bc339.js.map"
 }
