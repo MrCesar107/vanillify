@@ -2,7 +2,7 @@
   .column#header
     %h1 Vanillify
 
-.container
+.containers
   %h2 Regístrate
 
   = form_for resource, as: resource_name, url: registration_path(resource_name) do |f|
@@ -28,7 +28,7 @@
     
     .actions.columns
       .column
-        = link_to "Iniciar Sesión", new_user_session_path, class: 'button is-info'
+        = link_to "Ya tengo cuenta", new_user_session_path, class: 'button is-info'
 
       .column
         = f.submit "Crear cuenta", class: 'button is-info'

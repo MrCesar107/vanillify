@@ -1,16 +1,17 @@
 %nav.navbar{"aria-label": "main navigation", role: "navigation", id: "navbar"}
-  .navbar-brand
-    %h1 Vanillify
-    %a.navbar-burger.burger{"aria-expanded" => "false", "aria-label" => "menu", "data-target" => "navbarBasicExample", :role => "button"}
-      %span{"aria-hidden" => "true"}
-      %span{"aria-hidden" => "true"}
-      %span{"aria-hidden" => "true"}
-  #navbarBasicExample.navbar-menu
-    .navbar-end
-      %a.navbar-item
-        Mi perfil
-      %a.navbar-item
-        Ayuda
-      .navbar-item
-        .buttons
-          = button_to 'Cerrar sesión', destroy_user_session_path, method: :delete, class: 'button is-info'
+  .container
+    .navbar-brand
+      %h1 Vanillify
+      %a.navbar-burger.burger{"aria-expanded" => "false", "aria-label" => "menu", "data-target" => "navbarBasicExample", :role => "button"}
+        %span{"aria-hidden" => "true"}
+        %span{"aria-hidden" => "true"}
+        %span{"aria-hidden" => "true"}
+    #navbarBasicExample.navbar-menu
+      .navbar-end
+        %a.navbar-item
+          Mi perfil
+        %a.navbar-item
+          Ayuda
+        .navbar-item
+          .buttons
+            = link_to 'Cerrar sesión', destroy_user_session_path, method: :delete, class: 'button is-info', id: "buttonSignOut"

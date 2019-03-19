@@ -6,22 +6,11 @@ import Song from './Song';
 class SongsContainer extends Component {
   render() {
     return(
-      <section className="section">
-        <div className="container">
-          <div className="columns">
-            <Song />
-            <Song />
-            <Song />
-            <Song />
-            <Song />
-            <Song />
-            <Song />
-            <Song />
-            <Song />
-            <Song />
-          </div>
+      <div className="container" id="songsContainer">
+        <div className="columns">
+          <Song />
         </div>
-      </section>
+      </div>
     );
   }
 }
